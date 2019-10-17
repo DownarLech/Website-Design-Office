@@ -1,0 +1,94 @@
+<!DOCTYPE html>
+<html lang="pl">
+
+<head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <title>Biuro projektowe Fantazja</title>
+    <meta name="description" content="Strona biura projektowego Fantazja, lidera w dziedzinie projektowania w Europie" />
+    <meta name="keywords" content="Fantazja, biuro projektowe, lider, projektowanie" />
+    <meta name="generator" content="Brackets" />
+
+    <link href="https://fonts.googleapis.com/css?family=Roboto&amp;subset=latin-ext" rel="stylesheet">
+    <link rel="stylesheet" href="style.css" />
+
+</head>
+
+<body>
+    <div id="wraper">
+        <header>
+            <img src="img/b6.jpg" alt="logo" />
+        </header>
+
+        <nav>
+            <a class="menu" href="index.html">Strona główna</a>
+            <a class="menu" href="tabela.html">Pracownicy</a>
+            <a class="menu" href="formularz.html">Formularze</a>
+            <a class="menu" href="wspa.html">WSPA</a>
+        </nav>
+
+        <section>
+            <h3>Skontaktuj się z nami.</h3>
+
+
+            <form action="mailto: Kowalski@abc.pl" method="post" enctype="text/plain">
+                <div>
+                    <p>Imie:</p>
+                    <input name="Imię" /><br>
+                    <P>Nazwisko:</P>
+                    <input name="Nazwisko" />
+                    <br><br>
+
+                    <p>Wybierz nasz oddział</p>
+                    <select name="oddział" multiple="multiple" size="4">
+	                    <option selected="selected">Warszawa ul.Wspaniała</option>
+	                    <option>Warszawa plac Defilad</option>
+	                    <option>Berlin</option>
+	                    <option>Madryt</option>
+	                    <option>Paryż</option>
+                    </select>
+                    <br><br>
+
+                    <p>Wybierz dział:</p>
+                    <select name="Dział">
+	                    <option selected="selected">Handlowy</option>
+	                    <option>Finansowy</option>
+	                    <option>Projektowy</option>
+	                    <option>Księgowość</option>
+                    </select>
+                    <br><br>
+
+                    <p>Czy jesteś naszym klientem?</p>
+                    <input type="radio" name="odp" value="Tak" />Tak
+                    <input type="radio" name="odp" value="Nie" />Nie<br><br>
+
+                    <p>Jak mamy odpowiedzieć?</p>
+                    <input type="checkbox" name="Kontakt" value="Mail" />Mail<br>
+                    <input type="checkbox" name="Kontakt" value="Telefon" />Telefon<br>
+                    <input type="checkbox" name="Kontakt" value="Fax" />Fax<br>
+                    <input type="checkbox" name="Kontakt" value="List" />List<br>
+                    <input type="checkbox" name="Kontakt" value="Inna" />Inna:<input name="Kontakt" />
+                    <br><br>
+
+                    <p>Podaj swój komentarz:</p>
+                    <textarea name="Komentarz" cols="50" rows="10">Wpisz tutaj wiadomość.</textarea>
+                    <br><br>
+                    <input type="submit" value="Wyślij formularz" />
+                    <input type="reset" value="Wyczyść dane" />
+                </div>
+            </form>
+        </section>
+
+        <footer>
+            Biuro projektowe Fantazja <br> Warszawa 00-035 <br> ul. Wspaniała 16 <br> tel. 666 66 66<br>
+
+        </footer>
+    </div>
+
+
+
+</body>
+
+</html>
